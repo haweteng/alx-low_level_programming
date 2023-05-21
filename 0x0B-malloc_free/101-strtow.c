@@ -83,8 +83,7 @@ char **strtow(char *str)
 		{
 			for (; w >= 0; w--)
 				free(strings[w]);
-
-			free(strings);
+			free(strings)
 				return (NULL);
 		}
 		for (l = 0; l < letters; l++)
@@ -96,5 +95,3 @@ char **strtow(char *str)
 
 	return (strings);
 }
-
-	
